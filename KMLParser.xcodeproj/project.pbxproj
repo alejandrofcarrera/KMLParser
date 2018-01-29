@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A15A02A8201FDAC100AD717F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15A02A7201FDAC100AD717F /* Images.xcassets */; };
-		A15A02B7201FDB3000AD717F /* KMLParserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */; };
-		A15A02BE201FDB3000AD717F /* KMLParserSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A15A02BD201FDB3000AD717F /* KMLParserSDKTests.m */; };
 		A15A02C0201FDB3000AD717F /* KMLParserSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A15A02B0201FDB3000AD717F /* KMLParserSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A15A02C3201FDB3000AD717F /* KMLParserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */; };
 		A15A02C4201FDB3000AD717F /* KMLParserSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -30,20 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A15A02B8201FDB3000AD717F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1D35CFC201FCFB80001ECD7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A15A02AD201FDB3000AD717F;
-			remoteInfo = KMLParserSDK;
-		};
-		A15A02BA201FDB3000AD717F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1D35CFC201FCFB80001ECD7 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A1D35D03201FCFB80001ECD7;
-			remoteInfo = KMLParser;
-		};
 		A15A02C1201FDB3000AD717F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A1D35CFC201FCFB80001ECD7 /* Project object */;
@@ -79,9 +63,6 @@
 		A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KMLParserSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A15A02B0201FDB3000AD717F /* KMLParserSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLParserSDK.h; sourceTree = "<group>"; };
 		A15A02B1201FDB3000AD717F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A15A02B6201FDB3000AD717F /* KMLParserSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMLParserSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A15A02BD201FDB3000AD717F /* KMLParserSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLParserSDKTests.m; sourceTree = "<group>"; };
-		A15A02BF201FDB3000AD717F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A15A02CC201FE10A00AD717F /* KMLParser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KMLParser-Prefix.pch"; path = "KMLParser/KMLParser-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		A1D35D04201FCFB80001ECD7 /* KMLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMLParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1D35D07201FCFB80001ECD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -107,14 +88,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A15A02B3201FDB3000AD717F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A15A02B7201FDB3000AD717F /* KMLParserSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,22 +125,12 @@
 			path = KMLParserSDK;
 			sourceTree = "<group>";
 		};
-		A15A02BC201FDB3000AD717F /* KMLParserSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				A15A02BD201FDB3000AD717F /* KMLParserSDKTests.m */,
-				A15A02BF201FDB3000AD717F /* Info.plist */,
-			);
-			path = KMLParserSDKTests;
-			sourceTree = "<group>";
-		};
 		A1D35CFB201FCFB80001ECD7 = {
 			isa = PBXGroup;
 			children = (
 				A1D35D06201FCFB80001ECD7 /* KMLParser */,
 				A1D35D1F201FCFB80001ECD7 /* KMLParserTests */,
 				A15A02AF201FDB3000AD717F /* KMLParserSDK */,
-				A15A02BC201FDB3000AD717F /* KMLParserSDKTests */,
 				A1D35D05201FCFB80001ECD7 /* Products */,
 				A1D35D2B201FCFE70001ECD7 /* Frameworks */,
 			);
@@ -180,7 +143,6 @@
 				A1D35D04201FCFB80001ECD7 /* KMLParser.app */,
 				A1D35D1C201FCFB80001ECD7 /* KMLParserTests.xctest */,
 				A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */,
-				A15A02B6201FDB3000AD717F /* KMLParserSDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -263,25 +225,6 @@
 			productReference = A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A15A02B5201FDB3000AD717F /* KMLParserSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A15A02C9201FDB3000AD717F /* Build configuration list for PBXNativeTarget "KMLParserSDKTests" */;
-			buildPhases = (
-				A15A02B2201FDB3000AD717F /* Sources */,
-				A15A02B3201FDB3000AD717F /* Frameworks */,
-				A15A02B4201FDB3000AD717F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A15A02B9201FDB3000AD717F /* PBXTargetDependency */,
-				A15A02BB201FDB3000AD717F /* PBXTargetDependency */,
-			);
-			name = KMLParserSDKTests;
-			productName = KMLParserSDKTests;
-			productReference = A15A02B6201FDB3000AD717F /* KMLParserSDKTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		A1D35D03201FCFB80001ECD7 /* KMLParser */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1D35D25201FCFB80001ECD7 /* Build configuration list for PBXNativeTarget "KMLParser" */;
@@ -332,11 +275,6 @@
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
-					A15A02B5201FDB3000AD717F = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A1D35D03201FCFB80001ECD7;
-					};
 					A1D35D03201FCFB80001ECD7 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -368,20 +306,12 @@
 				A1D35D03201FCFB80001ECD7 /* KMLParser */,
 				A1D35D1B201FCFB80001ECD7 /* KMLParserTests */,
 				A15A02AD201FDB3000AD717F /* KMLParserSDK */,
-				A15A02B5201FDB3000AD717F /* KMLParserSDKTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A15A02AC201FDB3000AD717F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A15A02B4201FDB3000AD717F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -416,14 +346,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A15A02B2201FDB3000AD717F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A15A02BE201FDB3000AD717F /* KMLParserSDKTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A1D35D00201FCFB80001ECD7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,16 +367,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A15A02B9201FDB3000AD717F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A15A02AD201FDB3000AD717F /* KMLParserSDK */;
-			targetProxy = A15A02B8201FDB3000AD717F /* PBXContainerItemProxy */;
-		};
-		A15A02BB201FDB3000AD717F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A1D35D03201FCFB80001ECD7 /* KMLParser */;
-			targetProxy = A15A02BA201FDB3000AD717F /* PBXContainerItemProxy */;
-		};
 		A15A02C2201FDB3000AD717F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A15A02AD201FDB3000AD717F /* KMLParserSDK */;
@@ -530,35 +442,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A15A02CA201FDB3000AD717F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KMLParserSDKTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.afc.KMLParserSDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMLParser.app/KMLParser";
-			};
-			name = Debug;
-		};
-		A15A02CB201FDB3000AD717F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = KMLParserSDKTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.afc.KMLParserSDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMLParser.app/KMLParser";
 			};
 			name = Release;
 		};
@@ -743,15 +626,6 @@
 			buildConfigurations = (
 				A15A02C6201FDB3000AD717F /* Debug */,
 				A15A02C7201FDB3000AD717F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A15A02C9201FDB3000AD717F /* Build configuration list for PBXNativeTarget "KMLParserSDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A15A02CA201FDB3000AD717F /* Debug */,
-				A15A02CB201FDB3000AD717F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
