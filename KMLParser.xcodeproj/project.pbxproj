@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15A02A8201FDAC100AD717F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15A02A7201FDAC100AD717F /* Images.xcassets */; };
+		A15A02B7201FDB3000AD717F /* KMLParserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */; };
+		A15A02BE201FDB3000AD717F /* KMLParserSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A15A02BD201FDB3000AD717F /* KMLParserSDKTests.m */; };
+		A15A02C0201FDB3000AD717F /* KMLParserSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A15A02B0201FDB3000AD717F /* KMLParserSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A15A02C3201FDB3000AD717F /* KMLParserSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */; };
+		A15A02C4201FDB3000AD717F /* KMLParserSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1D35D09201FCFB80001ECD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D35D08201FCFB80001ECD7 /* AppDelegate.m */; };
+		A1D35D0C201FCFB80001ECD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D35D0B201FCFB80001ECD7 /* ViewController.m */; };
+		A1D35D17201FCFB80001ECD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D35D16201FCFB80001ECD7 /* main.m */; };
+		A1D35D21201FCFB80001ECD7 /* KMLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1D35D20201FCFB80001ECD7 /* KMLParserTests.m */; };
+		A1D35D2D201FCFE70001ECD7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D35D2C201FCFE70001ECD7 /* MapKit.framework */; };
+		A1D35D2F201FD0AF0001ECD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D35D2E201FD0AF0001ECD7 /* CoreGraphics.framework */; };
+		A1D35D31201FD0BF0001ECD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D35D30201FD0BF0001ECD7 /* UIKit.framework */; };
+		A1D35D33201FD0C30001ECD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D35D32201FD0C30001ECD7 /* Foundation.framework */; };
+		A1D35D34201FD1EF0001ECD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D35D30201FD0BF0001ECD7 /* UIKit.framework */; };
+		A1D35D35201FD1F70001ECD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D35D32201FD0C30001ECD7 /* Foundation.framework */; };
+		A1D35D37201FD1FB0001ECD7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1D35D36201FD1FB0001ECD7 /* XCTest.framework */; };
+		A1D35D3A201FD7000001ECD7 /* KMLParser-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1D35D38201FD7000001ECD7 /* KMLParser-Info.plist */; };
+		A1D35D41201FD7B70001ECD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1D35D3F201FD7B70001ECD7 /* InfoPlist.strings */; };
+		A1D35D43201FD7E30001ECD7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1D35D42201FD7E30001ECD7 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A15A02B8201FDB3000AD717F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D35CFC201FCFB80001ECD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15A02AD201FDB3000AD717F;
+			remoteInfo = KMLParserSDK;
+		};
+		A15A02BA201FDB3000AD717F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D35CFC201FCFB80001ECD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D35D03201FCFB80001ECD7;
+			remoteInfo = KMLParser;
+		};
+		A15A02C1201FDB3000AD717F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D35CFC201FCFB80001ECD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15A02AD201FDB3000AD717F;
+			remoteInfo = KMLParserSDK;
+		};
+		A1D35D1D201FCFB80001ECD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1D35CFC201FCFB80001ECD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1D35D03201FCFB80001ECD7;
+			remoteInfo = KMLParser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A15A02C8201FDB3000AD717F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A15A02C4201FDB3000AD717F /* KMLParserSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A15A02A7201FDAC100AD717F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KMLParserSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15A02B0201FDB3000AD717F /* KMLParserSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMLParserSDK.h; sourceTree = "<group>"; };
+		A15A02B1201FDB3000AD717F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15A02B6201FDB3000AD717F /* KMLParserSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMLParserSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15A02BD201FDB3000AD717F /* KMLParserSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLParserSDKTests.m; sourceTree = "<group>"; };
+		A15A02BF201FDB3000AD717F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15A02CC201FE10A00AD717F /* KMLParser-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "KMLParser-Prefix.pch"; path = "KMLParser/KMLParser-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		A1D35D04201FCFB80001ECD7 /* KMLParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMLParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D35D07201FCFB80001ECD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1D35D08201FCFB80001ECD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1D35D0A201FCFB80001ECD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1D35D0B201FCFB80001ECD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1D35D16201FCFB80001ECD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1D35D1C201FCFB80001ECD7 /* KMLParserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMLParserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1D35D20201FCFB80001ECD7 /* KMLParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMLParserTests.m; sourceTree = "<group>"; };
+		A1D35D22201FCFB80001ECD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1D35D2C201FCFE70001ECD7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A1D35D2E201FD0AF0001ECD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1D35D30201FD0BF0001ECD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1D35D32201FD0C30001ECD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1D35D36201FD1FB0001ECD7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A1D35D38201FD7000001ECD7 /* KMLParser-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KMLParser-Info.plist"; sourceTree = "<group>"; };
+		A1D35D40201FD7B70001ECD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = KMLParser/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		A1D35D42201FD7E30001ECD7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A15A02AA201FDB3000AD717F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15A02B3201FDB3000AD717F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15A02B7201FDB3000AD717F /* KMLParserSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D35D01201FCFB80001ECD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D35D33201FD0C30001ECD7 /* Foundation.framework in Frameworks */,
+				A15A02C3201FDB3000AD717F /* KMLParserSDK.framework in Frameworks */,
+				A1D35D31201FD0BF0001ECD7 /* UIKit.framework in Frameworks */,
+				A1D35D2F201FD0AF0001ECD7 /* CoreGraphics.framework in Frameworks */,
+				A1D35D2D201FCFE70001ECD7 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D35D19201FCFB80001ECD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D35D37201FD1FB0001ECD7 /* XCTest.framework in Frameworks */,
+				A1D35D35201FD1F70001ECD7 /* Foundation.framework in Frameworks */,
+				A1D35D34201FD1EF0001ECD7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A15A02AF201FDB3000AD717F /* KMLParserSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A15A02B0201FDB3000AD717F /* KMLParserSDK.h */,
+				A15A02B1201FDB3000AD717F /* Info.plist */,
+			);
+			path = KMLParserSDK;
+			sourceTree = "<group>";
+		};
+		A15A02BC201FDB3000AD717F /* KMLParserSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				A15A02BD201FDB3000AD717F /* KMLParserSDKTests.m */,
+				A15A02BF201FDB3000AD717F /* Info.plist */,
+			);
+			path = KMLParserSDKTests;
+			sourceTree = "<group>";
+		};
+		A1D35CFB201FCFB80001ECD7 = {
+			isa = PBXGroup;
+			children = (
+				A1D35D06201FCFB80001ECD7 /* KMLParser */,
+				A1D35D1F201FCFB80001ECD7 /* KMLParserTests */,
+				A15A02AF201FDB3000AD717F /* KMLParserSDK */,
+				A15A02BC201FDB3000AD717F /* KMLParserSDKTests */,
+				A1D35D05201FCFB80001ECD7 /* Products */,
+				A1D35D2B201FCFE70001ECD7 /* Frameworks */,
+			);
+			indentWidth = 5;
+			sourceTree = "<group>";
+		};
+		A1D35D05201FCFB80001ECD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1D35D04201FCFB80001ECD7 /* KMLParser.app */,
+				A1D35D1C201FCFB80001ECD7 /* KMLParserTests.xctest */,
+				A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */,
+				A15A02B6201FDB3000AD717F /* KMLParserSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1D35D06201FCFB80001ECD7 /* KMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				A1D35D07201FCFB80001ECD7 /* AppDelegate.h */,
+				A1D35D08201FCFB80001ECD7 /* AppDelegate.m */,
+				A1D35D0A201FCFB80001ECD7 /* ViewController.h */,
+				A1D35D0B201FCFB80001ECD7 /* ViewController.m */,
+				A15A02A7201FDAC100AD717F /* Images.xcassets */,
+				A1D35D3B201FD7230001ECD7 /* Supporting files */,
+			);
+			path = KMLParser;
+			sourceTree = "<group>";
+		};
+		A1D35D1F201FCFB80001ECD7 /* KMLParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1D35D20201FCFB80001ECD7 /* KMLParserTests.m */,
+				A1D35D22201FCFB80001ECD7 /* Info.plist */,
+			);
+			path = KMLParserTests;
+			sourceTree = "<group>";
+		};
+		A1D35D2B201FCFE70001ECD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1D35D36201FD1FB0001ECD7 /* XCTest.framework */,
+				A1D35D32201FD0C30001ECD7 /* Foundation.framework */,
+				A1D35D30201FD0BF0001ECD7 /* UIKit.framework */,
+				A1D35D2E201FD0AF0001ECD7 /* CoreGraphics.framework */,
+				A1D35D2C201FCFE70001ECD7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1D35D3B201FD7230001ECD7 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A1D35D38201FD7000001ECD7 /* KMLParser-Info.plist */,
+				A1D35D3F201FD7B70001ECD7 /* InfoPlist.strings */,
+				A1D35D16201FCFB80001ECD7 /* main.m */,
+				A15A02CC201FE10A00AD717F /* KMLParser-Prefix.pch */,
+				A1D35D42201FD7E30001ECD7 /* Default-568h@2x.png */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A15A02AB201FDB3000AD717F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15A02C0201FDB3000AD717F /* KMLParserSDK.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A15A02AD201FDB3000AD717F /* KMLParserSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15A02C5201FDB3000AD717F /* Build configuration list for PBXNativeTarget "KMLParserSDK" */;
+			buildPhases = (
+				A15A02A9201FDB3000AD717F /* Sources */,
+				A15A02AA201FDB3000AD717F /* Frameworks */,
+				A15A02AB201FDB3000AD717F /* Headers */,
+				A15A02AC201FDB3000AD717F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMLParserSDK;
+			productName = KMLParserSDK;
+			productReference = A15A02AE201FDB3000AD717F /* KMLParserSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A15A02B5201FDB3000AD717F /* KMLParserSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15A02C9201FDB3000AD717F /* Build configuration list for PBXNativeTarget "KMLParserSDKTests" */;
+			buildPhases = (
+				A15A02B2201FDB3000AD717F /* Sources */,
+				A15A02B3201FDB3000AD717F /* Frameworks */,
+				A15A02B4201FDB3000AD717F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15A02B9201FDB3000AD717F /* PBXTargetDependency */,
+				A15A02BB201FDB3000AD717F /* PBXTargetDependency */,
+			);
+			name = KMLParserSDKTests;
+			productName = KMLParserSDKTests;
+			productReference = A15A02B6201FDB3000AD717F /* KMLParserSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1D35D03201FCFB80001ECD7 /* KMLParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D35D25201FCFB80001ECD7 /* Build configuration list for PBXNativeTarget "KMLParser" */;
+			buildPhases = (
+				A1D35D00201FCFB80001ECD7 /* Sources */,
+				A1D35D01201FCFB80001ECD7 /* Frameworks */,
+				A1D35D02201FCFB80001ECD7 /* Resources */,
+				A15A02C8201FDB3000AD717F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15A02C2201FDB3000AD717F /* PBXTargetDependency */,
+			);
+			name = KMLParser;
+			productName = KMLParser;
+			productReference = A1D35D04201FCFB80001ECD7 /* KMLParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1D35D1B201FCFB80001ECD7 /* KMLParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1D35D28201FCFB80001ECD7 /* Build configuration list for PBXNativeTarget "KMLParserTests" */;
+			buildPhases = (
+				A1D35D18201FCFB80001ECD7 /* Sources */,
+				A1D35D19201FCFB80001ECD7 /* Frameworks */,
+				A1D35D1A201FCFB80001ECD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1D35D1E201FCFB80001ECD7 /* PBXTargetDependency */,
+			);
+			name = KMLParserTests;
+			productName = KMLParserTests;
+			productReference = A1D35D1C201FCFB80001ECD7 /* KMLParserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1D35CFC201FCFB80001ECD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alejandro F. Carrera";
+				TargetAttributes = {
+					A15A02AD201FDB3000AD717F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					A15A02B5201FDB3000AD717F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1D35D03201FCFB80001ECD7;
+					};
+					A1D35D03201FCFB80001ECD7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A1D35D1B201FCFB80001ECD7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A1D35D03201FCFB80001ECD7;
+					};
+				};
+			};
+			buildConfigurationList = A1D35CFF201FCFB80001ECD7 /* Build configuration list for PBXProject "KMLParser" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A1D35CFB201FCFB80001ECD7;
+			productRefGroup = A1D35D05201FCFB80001ECD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1D35D03201FCFB80001ECD7 /* KMLParser */,
+				A1D35D1B201FCFB80001ECD7 /* KMLParserTests */,
+				A15A02AD201FDB3000AD717F /* KMLParserSDK */,
+				A15A02B5201FDB3000AD717F /* KMLParserSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15A02AC201FDB3000AD717F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15A02B4201FDB3000AD717F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D35D02201FCFB80001ECD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D35D3A201FD7000001ECD7 /* KMLParser-Info.plist in Resources */,
+				A15A02A8201FDAC100AD717F /* Images.xcassets in Resources */,
+				A1D35D43201FD7E30001ECD7 /* Default-568h@2x.png in Resources */,
+				A1D35D41201FD7B70001ECD7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D35D1A201FCFB80001ECD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A15A02A9201FDB3000AD717F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A15A02B2201FDB3000AD717F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15A02BE201FDB3000AD717F /* KMLParserSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D35D00201FCFB80001ECD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D35D0C201FCFB80001ECD7 /* ViewController.m in Sources */,
+				A1D35D17201FCFB80001ECD7 /* main.m in Sources */,
+				A1D35D09201FCFB80001ECD7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1D35D18201FCFB80001ECD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1D35D21201FCFB80001ECD7 /* KMLParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A15A02B9201FDB3000AD717F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15A02AD201FDB3000AD717F /* KMLParserSDK */;
+			targetProxy = A15A02B8201FDB3000AD717F /* PBXContainerItemProxy */;
+		};
+		A15A02BB201FDB3000AD717F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D35D03201FCFB80001ECD7 /* KMLParser */;
+			targetProxy = A15A02BA201FDB3000AD717F /* PBXContainerItemProxy */;
+		};
+		A15A02C2201FDB3000AD717F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15A02AD201FDB3000AD717F /* KMLParserSDK */;
+			targetProxy = A15A02C1201FDB3000AD717F /* PBXContainerItemProxy */;
+		};
+		A1D35D1E201FCFB80001ECD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1D35D03201FCFB80001ECD7 /* KMLParser */;
+			targetProxy = A1D35D1D201FCFB80001ECD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1D35D3F201FD7B70001ECD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1D35D40201FD7B70001ECD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A15A02C6201FDB3000AD717F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KMLParserSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.afc.KMLParserSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A15A02C7201FDB3000AD717F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KMLParserSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.afc.KMLParserSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A15A02CA201FDB3000AD717F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMLParserSDKTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.afc.KMLParserSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMLParser.app/KMLParser";
+			};
+			name = Debug;
+		};
+		A15A02CB201FDB3000AD717F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = KMLParserSDKTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afc.KMLParserSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMLParser.app/KMLParser";
+			};
+			name = Release;
+		};
+		A1D35D23201FCFB80001ECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1D35D24201FCFB80001ECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1D35D26201FCFB80001ECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMLParser/KMLParser-Prefix.pch";
+				INFOPLIST_FILE = "KMLParser/KMLParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afc.KMLParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A1D35D27201FCFB80001ECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KMLParser/KMLParser-Prefix.pch";
+				INFOPLIST_FILE = "KMLParser/KMLParser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afc.KMLParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A1D35D29201FCFB80001ECD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KMLParserTests/KMLParserTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afc.KMLParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMLParser.app/KMLParser";
+			};
+			name = Debug;
+		};
+		A1D35D2A201FCFB80001ECD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "KMLParserTests/KMLParserTests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.afc.KMLParserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMLParser.app/KMLParser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A15A02C5201FDB3000AD717F /* Build configuration list for PBXNativeTarget "KMLParserSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15A02C6201FDB3000AD717F /* Debug */,
+				A15A02C7201FDB3000AD717F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15A02C9201FDB3000AD717F /* Build configuration list for PBXNativeTarget "KMLParserSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15A02CA201FDB3000AD717F /* Debug */,
+				A15A02CB201FDB3000AD717F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D35CFF201FCFB80001ECD7 /* Build configuration list for PBXProject "KMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D35D23201FCFB80001ECD7 /* Debug */,
+				A1D35D24201FCFB80001ECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D35D25201FCFB80001ECD7 /* Build configuration list for PBXNativeTarget "KMLParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D35D26201FCFB80001ECD7 /* Debug */,
+				A1D35D27201FCFB80001ECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1D35D28201FCFB80001ECD7 /* Build configuration list for PBXNativeTarget "KMLParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1D35D29201FCFB80001ECD7 /* Debug */,
+				A1D35D2A201FCFB80001ECD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1D35CFC201FCFB80001ECD7 /* Project object */;
+}
